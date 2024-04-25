@@ -104,4 +104,5 @@ $ npm run test:e2e
 - Use a production ready database like PostgreSQL
 - Dummy database setup for testing
 - Use a production ready logger like winston
+- Dockerize the application
 
