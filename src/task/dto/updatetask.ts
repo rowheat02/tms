@@ -8,9 +8,15 @@ export class updateTaskDto {
   @IsOptional()
   title?: string;
 
+  @ApiProperty({
+    default: 'Updated Description',
+  })
   @IsOptional()
   description?: string;
 
+  @ApiProperty({
+    default: 'pending',
+  })
   @IsOptional()
   @IsEnum(['pending', 'in progress', 'completed'], {
     message:
@@ -18,6 +24,9 @@ export class updateTaskDto {
   })
   status?: string;
 
+  @ApiProperty({
+    default: 1,
+  })
   @IsOptional()
   priority?: number;
 }
