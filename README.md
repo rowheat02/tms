@@ -63,6 +63,17 @@ Nestjs Project for Task Management System with sqlite database and DrizzleORM. S
 ```bash
 $ npm install
 ```
+## Make migrations
+```bash
+$ npm run db:generate
+```
+
+## Run migrations
+```bash
+$ npm run db:migrate
+```
+
+
 
 ## Running the app
 
