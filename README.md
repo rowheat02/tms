@@ -62,6 +62,9 @@ Nestjs Project for Task Management System with sqlite database and DrizzleORM. S
 - `createdAt`: Timestamp for when the task was created.
 - `updatedAt`: Timestamp for when the task was last updated.
 
+## Prerequisites
+- Node.js (version 18 or higher)
+
 ## Installation
 
 ```bash
