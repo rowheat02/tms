@@ -3,6 +3,10 @@
 
 Nestjs Project for Task Management System with sqlite database and DrizzleORM. Swagger is also integrated for API documentation.
 
+## Deployed on Digitalocean 
+- Base URL: [https://tms.rohitgautam.com.np](https://tms.rohitgautam.com.np)
+- Swagger API Documentation: [docs](https://tms.rohitgautam.com.np/api)
+
 ## Endpoints
 
 ### Create Task
